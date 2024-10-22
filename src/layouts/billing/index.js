@@ -21,7 +21,6 @@ import MDBox from "components/MDBox";
 
 // Material Dashboard 2 React examples
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import MasterCard from "examples/Cards/MasterCard";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
@@ -35,7 +34,6 @@ import Transactions from "layouts/billing/components/Transactions";
 function Billing() {
   return (
     <DashboardLayout>
-      <DashboardNavbar absolute isMini />
       <MDBox mt={8}>
         <MDBox mb={3}>
           <Grid container spacing={3}>
