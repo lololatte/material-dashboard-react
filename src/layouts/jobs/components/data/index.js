@@ -63,10 +63,10 @@ export default function data() {
       try {
         // Fetch jobs and properties data
         const [jobsResponse, propertiesResponse] = await Promise.all([
-          axios.get("/jobs/", {
+          axios.get("http://localhost/api/jobs/", {
             headers: { Authorization: "Token eb1ae3b86de6b734d71901c5eb0f3fb2d1f0a729" },
           }),
-          axios.get("/properties/", {
+          axios.get("http://localhost/api/properties/", {
             headers: { Authorization: "Token eb1ae3b86de6b734d71901c5eb0f3fb2d1f0a729" },
           }),
         ]);

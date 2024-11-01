@@ -54,7 +54,7 @@ export default function Data() {
     // Fetch data from the API
     const fetchData = async () => {
       try {
-        const response = await axios.get("/properties/", {
+        const response = await axios.get("http://localhost/api/properties/", {
           headers: {
             Authorization: "Token eb1ae3b86de6b734d71901c5eb0f3fb2d1f0a729",
           },

@@ -47,7 +47,7 @@ function AddJobForm({ open, onClose, onSubmit }) {
   useEffect(() => {
     const fetchProperties = async () => {
       try {
-        const response = await axios.get("/properties/", {
+        const response = await axios.get("http://localhost/api/properties/", {
           headers: {
             Authorization: "Token eb1ae3b86de6b734d71901c5eb0f3fb2d1f0a729",
           },
@@ -82,7 +82,7 @@ function AddJobForm({ open, onClose, onSubmit }) {
     setError("");
 
     try {
-      const response = await axios.post("/jobs/", jobData, {
+      const response = await axios.post("http://localhost/api/jobs/", jobData, {
         headers: {
           Authorization: "Token eb1ae3b86de6b734d71901c5eb0f3fb2d1f0a729",
         },

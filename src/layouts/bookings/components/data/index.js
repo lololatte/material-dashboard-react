@@ -36,7 +36,7 @@ export default function Bookings() {
     // Fetch data from the API
     const fetchData = async () => {
       try {
-        const response = await axios.get("/bookings/", {
+        const response = await axios.get("http://localhost/api/bookings/", {
           headers: {
             Authorization: "Token eb1ae3b86de6b734d71901c5eb0f3fb2d1f0a729",
           },

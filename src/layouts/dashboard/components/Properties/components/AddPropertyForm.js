@@ -57,7 +57,7 @@ function AddPropertyForm({ open, onClose, onSubmit }) {
     setError("");
 
     try {
-      const response = await axios.post("/properties/", propertyData, {
+      const response = await axios.post("http://localhost/api/properties/", propertyData, {
         headers: {
           Authorization: "Token eb1ae3b86de6b734d71901c5eb0f3fb2d1f0a729",
         },
