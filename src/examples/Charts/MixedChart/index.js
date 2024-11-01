@@ -4,7 +4,7 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Niklas Läsche (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -38,17 +38,17 @@ import {
 import Card from "@mui/material/Card";
 import Icon from "@mui/material/Icon";
 
-// Material Dashboard 2 React components
+// Virtual Estate components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
-// Material Dashboard 2 React helper functions
+// Virtual Estate helper functions
 import gradientChartLine from "assets/theme/functions/gradientChartLine";
 
 // MixedChart configurations
 import configs from "examples/Charts/MixedChart/configs";
 
-// Material Dashboard 2 React base styles
+// Virtual Estate base styles
 import colors from "assets/theme/base/colors";
 
 ChartJS.register(

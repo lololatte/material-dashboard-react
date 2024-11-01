@@ -4,7 +4,7 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Niklas Läsche (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -34,17 +34,17 @@ import { Radar } from "react-chartjs-2";
 import Card from "@mui/material/Card";
 import Icon from "@mui/material/Icon";
 
-// Material Dashboard 2 React components
+// Virtual Estate components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
 // RadarChart configurations
 import configs from "examples/Charts/RadarChart/configs";
 
-// Material Dashboard 2 React base styles
+// Virtual Estate base styles
 import colors from "assets/theme/base/colors";
 
-// Material Dashboard 2 React helper functions
+// Virtual Estate helper functions
 import rgba from "assets/theme/functions/rgba";
 
 ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend);

@@ -1,10 +1,10 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.2.0
+* Virtual Estate - v2.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Niklas Läsche (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -14,15 +14,15 @@ Coded by www.creative-tim.com
 */
 
 /**
- * The base typography styles for the Material Dashboard 2 React.
+ * The base typography styles for the Virtual Estate.
  * You can add new typography style using this file.
- * You can customized the typography styles for the entire Material Dashboard 2 React using thie file.
+ * You can customized the typography styles for the entire Virtual Estate using thie file.
  */
 
-// Material Dashboard 2 React Base Styles
+// Virtual Estate Base Styles
 import colors from "assets/theme-dark/base/colors";
 
-// Material Dashboard 2 React Helper Functions
+// Virtual Estate Helper Functions
 import pxToRem from "assets/theme-dark/functions/pxToRem";
 
 const { white } = colors;

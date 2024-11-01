@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "App";
 
-// Material Dashboard 2 React Context Provider
+// Virtual Estate Context Provider
 import { MaterialUIControllerProvider } from "context";
 
 const container = document.getElementById("app");

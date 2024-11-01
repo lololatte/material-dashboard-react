@@ -1,5 +1,6 @@
 import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
+import Jobs from "layouts/jobs";
+import Bookings from "layouts/bookings";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
@@ -10,36 +11,44 @@ import Icon from "@mui/material/Icon";
 const routes = [
   {
     type: "collapse",
-    name: "Dashboard",
+    name: "Properties",
     key: "dashboard",
-    icon: <Icon fontSize="small">dashboard</Icon>,
+    icon: <Icon fontSize="small">house</Icon>,
     route: "/dashboard",
     component: <Dashboard />,
   },
   {
     type: "collapse",
-    name: "Tables",
-    key: "tables",
-    icon: <Icon fontSize="small">table_view</Icon>,
-    route: "/tables",
-    component: <Tables />,
+    name: "Jobs",
+    key: "jobs",
+    icon: <Icon fontSize="small">work</Icon>,
+    route: "/jobs",
+    component: <Jobs />,
   },
   {
     type: "collapse",
-    name: "Sign In",
-    key: "sign-in",
-    icon: <Icon fontSize="small">login</Icon>,
-    route: "/authentication/sign-in",
-    component: <SignIn />,
+    name: "Bookings",
+    key: "bookings",
+    icon: <Icon fontSize="small">access_time</Icon>,
+    route: "/bookings",
+    component: <Bookings />,
   },
-  {
-    type: "collapse",
-    name: "Sign Up",
-    key: "sign-up",
-    icon: <Icon fontSize="small">assignment</Icon>,
-    route: "/authentication/sign-up",
-    component: <SignUp />,
-  },
+  //   {
+  //     type: "collapse",
+  //     name: "Sign In",
+  //     key: "sign-in",
+  //     icon: <Icon fontSize="small">login</Icon>,
+  //     route: "/authentication/sign-in",
+  //     component: <SignIn />,
+  //   },
+  //   {
+  //     type: "collapse",
+  //     name: "Sign Up",
+  //     key: "sign-up",
+  //     icon: <Icon fontSize="small">assignment</Icon>,
+  //     route: "/authentication/sign-up",
+  //     component: <SignUp />,
+  //   },
 ];
 
 export default routes;

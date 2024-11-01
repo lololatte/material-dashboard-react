@@ -1,10 +1,10 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.1.0
+* Virtual Estate - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/nextjs-material-dashboard-pro
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Niklas Läsche (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -15,7 +15,7 @@ Coded by www.creative-tim.com
 
 /* eslint-disable no-dupe-keys */
 
-// Material Dashboard 2 React base styles
+// Virtual Estate base styles
 import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 

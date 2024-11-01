@@ -1,10 +1,10 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.2.0
+* Virtual Estate - v2.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Niklas Läsche (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -14,9 +14,9 @@ Coded by www.creative-tim.com
 */
 
 /**
- * The base colors for the Material Dashboard 2 React.
+ * The base colors for the Virtual Estate.
  * You can add new color using this file.
- * You can customized the colors for the entire Material Dashboard 2 React using thie file.
+ * You can customized the colors for the entire Virtual Estate using thie file.
  */
 
 const colors = {
@@ -108,8 +108,8 @@ const colors = {
     },
 
     info: {
-      main: "#49a3f1",
-      state: "#1A73E8",
+      main: "#1fA5A1",
+      state: "#2fd5c1",
     },
 
     success: {

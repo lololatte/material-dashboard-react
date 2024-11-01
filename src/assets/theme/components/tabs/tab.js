@@ -1,10 +1,10 @@
 /**
 =========================================================
-* Material Dashboard 2 React - v2.2.0
+* Virtual Estate - v2.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Niklas Läsche (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -13,12 +13,12 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// Material Dashboard 2 React base styles
+// Virtual Estate base styles
 import typography from "assets/theme/base/typography";
 import borders from "assets/theme/base/borders";
 import colors from "assets/theme/base/colors";
 
-// Material Dashboard 2 React helper functions
+// Virtual Estate helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { size, fontWeightRegular } = typography;
