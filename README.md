@@ -1,7 +1,3 @@
-Hier ist eine umfassende Dokumentation für die erstellte React-Anwendung, die die Kernkomponenten und -funktionen der App beschreibt. Diese Dokumentation umfasst den Aufbau der Anwendung, die Funktionsweise der einzelnen Komponenten und wichtige technische Details.
-
----
-
 # React-Anwendung zur Verwaltung von Jobs und Buchungen
 
 ## Übersicht
@@ -131,6 +127,3 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
 
 Diese Anwendung ermöglicht die Verwaltung und Überwachung von Jobs und deren Buchungen in einer übersichtlichen und effizienten Weise. Sie berechnet automatisch die gebuchten Stunden auf Basis von *Check-in* und *Check-out*-Ereignissen und stellt die Daten benutzerfreundlich dar. Die Struktur und Modularität der App erleichtern die Erweiterung und Wartung. 
 
---- 
-
-Diese Dokumentation sollte Entwicklern und Nutzern helfen, die grundlegende Funktionsweise und den Aufbau der Anwendung zu verstehen und effizient mit der Codebasis zu arbeiten.
